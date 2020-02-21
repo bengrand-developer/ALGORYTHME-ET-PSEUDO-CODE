@@ -1,0 +1,6 @@
+Début Calcul(ArgentDispo, prixUnitairesBonbons, entier résultat)
+  Tant que argentDispo>0 ET prix UnitaireBonbons>0
+    entier résultat ← argentDispo/prixUnitaireBonbons
+  Fin Tant que
+  Retourner entier résultat
+Fin calcul
