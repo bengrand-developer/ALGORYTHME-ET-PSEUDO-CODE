@@ -1,0 +1,15 @@
+
+début calculBonbons (argentDétenu, prixBonbon,nbBonbons)
+  argentDétenu = (réel a)
+  prixBonbon = (réel b)
+  nbBonbons = (entier c)
+  
+  SI argentDétenu OU PrixBonbons<=0
+  retourner erreur
+
+  TANT QUE argentDétenu >= prixBonbon
+    nbBonbons<- nbBonbons + 1
+  FIN TANT QUE
+  retourner nbBonbons
+  
+ Fin CalculBonbons
